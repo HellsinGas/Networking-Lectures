@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/games.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE games SYSTEM "games.dtd">
+
+    <games>
+    ...
+    </games>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT games (game)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT game (title|releasedate|genres|requirements|PEGIrating|releasestudio)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT title (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT releasedate (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT genres (genre)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT genre (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT requirements (minimum|recommended|maximum)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT minimum (os|processor|Video|directx|memory|hardDrive|internet|multiplayer)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT os (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT processor (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Video (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT directx (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT memory (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT hardDrive (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT internet (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT multiplayer (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT recommended (os|processor|Video|directx|memory|hardDrive|internet|multiplayer)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT maximum (os|processor|Video|directx|memory|hardDrive|internet|multiplayer)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT PEGIrating (age|contentdescriptors)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT age (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT contentdescriptors (descriptor)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT descriptor (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT releasestudio (name|homepage)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT name (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT homepage (#PCDATA)>

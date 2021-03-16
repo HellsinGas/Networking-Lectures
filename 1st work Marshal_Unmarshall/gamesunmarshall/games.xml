@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE games SYSTEM "games.dtd">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<games>
+    <game>
+        <title> Cyberpunk 2077</title>
+        <releasedate> 2020-09-17</releasedate>
+        <genres>
+            <genre>Shooter</genre>
+            <genre>MMO</genre>
+        </genres>
+        <requirements>
+            <minimum>
+                <os>Windows 7 or 10 64-bit</os>
+                <processor>Intel Core i5-3570K or AMD FX-8310</processor>
+                <Video>NVIDIA GeForce GTX 780 or AMD Radeon RX 470</Video>
+                <directx> DirectX 11 or DirectX 12</directx>
+                <memory>8GB RAM</memory>
+                <hardDrive>70 GB</hardDrive>
+                <internet>A permanent internet connection is required in order to download and play the game</internet>
+                <multiplayer> No multiplayer yet</multiplayer>
+            </minimum>
+            <recommended>
+                <os>Windows 7 SP1, Windows 8.1, Windows 10 (64-bit versions only)</os>
+                <processor>Intel Core i7-4790 or AMD Ryzen 3 3200G</processor>
+                <Video>NVIDIA GeForce GTX 1060 or AMD Radeon RX 590</Video>
+                <directx>DirectX 12</directx>
+                <memory>12GB RAM</memory>
+                <hardDrive>70GB</hardDrive>
+                <internet>A permanent internet connection is required in order to download and play the game</internet>
+                <multiplayer> No multiplayer yet</multiplayer>
+            </recommended>
+            <maximum>
+                <os>Windows 7 SP1, Windows 8.1, Windows 10 (64-bit versions only)</os>
+                <processor>AMD Ryzen 7 2700X, Intel Core i7-8700K (SSE 4.2 and AVX support required)</processor>
+                <Video>AMD Radeon VII (11GB VRAM) or NVIDIA GeForce RTX 2080 TI (11GB VRAM with Shader Model 6.0 or better)</Video>
+                <directx>DirectX 12</directx>
+                <memory>16GB RAM</memory>
+                <hardDrive>Up to 85 GB</hardDrive>
+                <internet>A permanent internet connection is required in order to download and play the game</internet>
+                <multiplayer>No multiplayer yet</multiplayer>
+            </maximum>
+        </requirements>
+        <PEGIrating>
+            <age>18</age>
+            <contentdescriptors>
+                <descriptor>Violence</descriptor>
+                <descriptor>Bad Language</descriptor>
+                <descriptor>In-game purchases</descriptor>
+            </contentdescriptors>
+        </PEGIrating>
+        <releasestudio>
+            <name>CD PROJEKT RED</name>
+            <homepage>https://en.cdprojektred.com/</homepage>
+        </releasestudio>
+    </game>
+    <game>
+        <title> Tom Clancy's The Division 2</title>
+        <releasedate> 2019-03-12</releasedate>
+        <genres>
+            <genre>Shooter</genre>
+            <genre>MMO</genre>
+        </genres>
+        <requirements>
+            <minimum>
+                <os>Windows 7 SP1, Windows 8.1, Windows 10 (64-bit versions only)</os>
+                <processor>AMD FX 6350, Intel i5-2500K (SSE 4.2 and AVX support required)</processor>
+                <Video>AMD R9 280X or NVIDIA GeForce GTX 780 (3GB VRAM with Shader Model 5.0 or better</Video>
+                <directx> DirectX 11 or DirectX 12</directx>
+                <memory>8GB RAM</memory>
+                <hardDrive>Up to 85 GB</hardDrive>
+                <internet>A permanent internet connection is required in order to download and play the game</internet>
+                <multiplayer> Broadband connection with 512 kps upstream</multiplayer>
+            </minimum>
+            <recommended>
+                <os>Windows 7 SP1, Windows 8.1, Windows 10 (64-bit versions only)</os>
+                <processor>AMD Ryzen 5 1500X, Intel Core i7-4790(SSE 4.2 and AVX support required)</processor>
+                <Video>AMD RX 480 or NVIDIA GeForce GTX 970 (4GB VRAM with Shader Model 6.0 or better)</Video>
+                <directx>DirectX 12</directx>
+                <memory>8GB RAM</memory>
+                <hardDrive>Up to 85 GB</hardDrive>
+                <internet>A permanent internet connection is required in order to download and play the game</internet>
+                <multiplayer> Broadband connection with 512 kps upstream</multiplayer>
+            </recommended>
+            <maximum>
+                <os>Windows 7 SP1, Windows 8.1, Windows 10 (64-bit versions only)</os>
+                <processor>AMD Ryzen 7 2700X, Intel Core i7-8700K (SSE 4.2 and AVX support required)</processor>
+                <Video>AMD Radeon VII (11GB VRAM) or NVIDIA GeForce RTX 2080 TI (11GB VRAM with Shader Model 6.0 or better)</Video>
+                <directx>DirectX 12</directx>
+                <memory>16GB RAM</memory>
+                <hardDrive>Up to 85 GB</hardDrive>
+                <internet>A permanent internet connection is required in order to download and play the game</internet>
+                <multiplayer>Broadband connection with 512 kps upstream</multiplayer>
+            </maximum>
+        </requirements>
+        <PEGIrating>
+            <age>18</age>
+            <contentdescriptors>
+                <descriptor>Violence</descriptor>
+                <descriptor>Bad Language</descriptor>
+                <descriptor>In-game purchases</descriptor>
+            </contentdescriptors>
+        </PEGIrating>
+        <releasestudio>
+            <name>Ubisoft</name>
+            <homepage>https://www.ubisoft.com/</homepage>
+        </releasestudio>
+    </game>
+</games>

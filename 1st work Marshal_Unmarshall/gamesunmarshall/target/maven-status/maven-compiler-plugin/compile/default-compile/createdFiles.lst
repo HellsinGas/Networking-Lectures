@@ -1,0 +1,13 @@
+Models\PegiInfo.class
+Models\Genres.class
+Models\Game.class
+Models\RecommendedReq.class
+Server\Client.class
+Server\Server.class
+Models\PegiDescriptors.class
+Models\MaximumReq.class
+Models\ReleaseStudio.class
+Models\Requirements.class
+Models\Genre.class
+Models\Games.class
+Models\MinimumReq.class

@@ -23,9 +23,9 @@ public class TestLab {
     public void test1()
     {
         Game testItem = new Game();
-        testItem.setTitle("Gandons");
+        testItem.setTitle("WHOOPSIE");
 //        SeleneseTestCase.assertEquals("Gandons",testItem.getTitle());
-         assertEquals("Gandons", testItem.getTitle());
+         assertEquals("WHOOPSIE", testItem.getTitle());
               
     }
     @Test
